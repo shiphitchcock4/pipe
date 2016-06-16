@@ -1,5 +1,5 @@
 resources:
-  - name: cc1
+  - name: ccpipe1
     type: image
     integration: ship4-docker #your subs integration for docker hub
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: true
       tag: latest
       
-  - name: cc2
+  - name: ccpipe2
     type: image
     integration: ship4-docker
     source:
