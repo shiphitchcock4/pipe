@@ -1,5 +1,5 @@
 resources:
-  - name: githubreso1
+  - name: cc1
     type: image
     integration: ship4-docker #your subs integration for docker hub
     source:
@@ -7,7 +7,7 @@ resources:
       isPull: true
       tag: latest
       
-  - name: githubreso2
+  - name: cc2
     type: image
     integration: ship4-docker
     source:
