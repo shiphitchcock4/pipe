@@ -1,14 +1,14 @@
 jobs:
-  - name: ghjob1
+  - name: ccjob1
     type: manifest
     steps:
-      - GET: githubreso1
+      - GET: cc1
       
       
-  - name: ghjob2
+  - name: ccjob2
     type: manifest
     steps:
-      - GET: githubreso2
+      - GET: cc2
       
   #- name: vjob2-ecsdeploy
  #   type: ecsDeploy
