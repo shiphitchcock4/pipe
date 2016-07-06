@@ -1,17 +1,8 @@
 jobs:
-  - name: ccjob1
-    type: manifest
+  - name: script-newjjobproject12
     steps:
-      - GET: ccpipe1
-      
-      
-  - name: ccjob2
-    type: manifest
-    steps:
-      - GET: ccpipe2
-      
-  #- name: vjob2-ecsdeploy
- #   type: ecsDeploy
-#    steps:
-     # - GET: vjob1-manifest
-    #  - GET: resourcev-ecscluster
+      - GET: sample-script12
+      - TASK:
+        - script: pwd
+        - script: ls
+        - script: ./GET/sample-script1/sample-script1/echo.sh
