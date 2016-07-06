@@ -1,19 +1,7 @@
 resources:
-  - name: ccpipe1
-    type: image
-    integration: ship4-docker #your subs integration for docker hub
+  - name: sample-script12
+    type: gitRepo
+    integration: shiphitchcock4-github
     source:
-      name: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: true
-      tag: latest
-      
-  - name: ccpipe2
-    type: image
-    integration: ship4-docker
-    source:
-      name: "shiphitchcock4/hitchcock4_sample_node"
-      isPull: false
-      tag: latest
-      
-
-        
+      name: shiphitchcock4/sample-script
+      branch: master
